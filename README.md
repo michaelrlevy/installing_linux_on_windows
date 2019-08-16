@@ -18,6 +18,8 @@ Some readers may be familiar with the Windows Command Window. This article focus
 
 One way to launch PowerShell is to press the Windows key on your keyboard or to click the Windows icon at lower left in the system tray. Immediately, begin to type PowerShell and you should see "Windows PowerShell" appear. Click on that and a terminal window should appear.
 
+  ![alt text](https://github.com/michaelrlevy/installing_linux_on_windows/blob/master/Launching%20Windows%20Powershell.png "Launching Windows PowerShell")
+
 Alternatively, if you know how to open a Windows Command window, do that and enter "powershell" and enter.
 
 Enable Linux by entering this into PowerShell:
