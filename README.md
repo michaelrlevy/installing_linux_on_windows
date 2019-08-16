@@ -16,13 +16,16 @@ Many Windows functions can be accomplished in more than one way; for example, th
 
 Some readers may be familiar with the Windows Command Window. This article focuses on using PowerShell to install Linux. PowerShell is a Windows tool that is an alternative and more powerful command line environment than the command shell.
 
-One way to launch PowerShell is to press the Windows key on your keyboard or to click the Windows icon at lower left in the system tray. Immediately, begin to type PowerShell and you should see "Windows PowerShell" appear. Click on that and a terminal window should appear.
-
+One way to launch PowerShell is to press the Windows key on your keyboard or to click the Windows icon at lower left in the system tray. Immediately, begin to type PowerShell and you should see "Windows PowerShell" appear as an option in the Windows Start menu:
   ![alt text](https://github.com/michaelrlevy/installing_linux_on_windows/blob/master/Launching%20Windows%20Powershell.png "Launching Windows PowerShell")
+  
+Click on "Windows PowerShell" and a PoweShell terminal window should appear:
 
-Alternatively, if you know how to open a Windows Command window, do that and enter "powershell" and enter.
+  ![alt text](https://github.com/michaelrlevy/installing_linux_on_windows/blob/master/Windows%20PowerShell%20Terminal.png "Windows PowerShell terminal")
+  
+(Alternatively, if you know how to open a Windows Command window, do that and enter "powershell" and enter.)
 
-Enable Linux by entering this into PowerShell:
+Enable Linux by entering this into PowerShell, which you can also see in the image above:
 
 ```PowerShell
 Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Windows-Subsystem-Linux
@@ -36,9 +39,14 @@ Download the installer for WSL 2 from Microsoft for Ubuntu 18.04 :
 Invoke-WebRequest -Uri https://aka.ms/wsl-ubuntu-1804 -OutFile Ubuntu.appx -UseBasicParsing
 ```
 
-This may take some time. When complete you should see "Ubuntu 18.04" app as an item to launch. You may be prompted to enter a use account name and password the first time.
+This may take some time. When complete you should see "Ubuntu 18.04" app appear in your Windows start menu as an item to launch. Select this. In the image below, the user has begun to type "Ubuntu" in the Windows application search:
 
-At this point you can confirm that you have a version of Ubuntu 18.04 by entering
+  ![alt text](https://github.com/michaelrlevy/installing_linux_on_windows/blob/master/Launch%20Ubuntu.png "Launch Ubuntu 18.04 with WSL")
+
+
+You may be prompted to enter a use account name and password the first time.
+
+At this point you can confirm that you have a version of Ubuntu 18.04 by entering:
 
 ```bash
 lsb_release -a
