@@ -20,6 +20,10 @@ One way to launch PowerShell is to press the Windows key on your keyboard or to 
 
   ![alt text](https://github.com/michaelrlevy/installing_linux_on_windows/blob/master/Launching%20Windows%20Powershell.png "Launching Windows PowerShell" )
   
+<p align="center">
+  <img src="https://raw.githubusercontent.com/michaelrlevy/installing_linux_on_windows/master/Launching%20Windows%20Powershell.png" width="384" height="373" title="Launching Windows PowerShell">
+</p>
+  
 Click on "Windows PowerShell" and a PoweShell terminal window should appear:
 
   ![alt text](https://github.com/michaelrlevy/installing_linux_on_windows/blob/master/Windows%20PowerShell%20Terminal.png "Windows PowerShell terminal")
@@ -44,6 +48,9 @@ This may take some time. When complete you should see "Ubuntu 18.04" app appear 
 
   ![alt text](https://github.com/michaelrlevy/installing_linux_on_windows/blob/master/Launch%20Ubuntu.png "Launch Ubuntu 18.04 with WSL")
 
+<p align="center">
+  <img src="https://raw.githubusercontent.com/michaelrlevy/installing_linux_on_windows/master/Launch%20Ubuntu.png" width="348" height="341" title="Launching Windows PowerShell">
+</p>
 
 You may be prompted to enter a use account name and password the first time.
 
