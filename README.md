@@ -63,4 +63,7 @@ Codename:       bionic
 mlevy@Desktop-7273:~$
 ```
 
+  ![alt text](https://github.com/michaelrlevy/installing_linux_on_windows/blob/master/Ubuntu%20Terminal%20Window.png "Ubuntu running and confirming version 18.04 'bionic'")
+
+
 If you see "Ubuntu 18.04 LTS" this will confirm that you now have a working version of this Ubuntu Linux distribution running on your Windows computer and is ready for installation of tools and subsystems.
