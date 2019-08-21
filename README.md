@@ -17,14 +17,12 @@ Many Windows functions can be accomplished in more than one way; for example, th
 Some readers may be familiar with the Windows Command Window. This article focuses on using PowerShell to install Linux. PowerShell is a Windows tool that is an alternative and more powerful command line environment than the command shell.
 
 One way to launch PowerShell is to press the Windows key on your keyboard or to click the Windows icon at lower left in the system tray. Immediately, begin to type PowerShell and you should see "Windows PowerShell" appear as an option in the Windows Start menu:
-  
-<p align="center">
-  <img src="https://raw.githubusercontent.com/michaelrlevy/installing_linux_on_windows/master/Launching%20Windows%20Powershell.png" width="384" height="373" title="Launching Windows PowerShell">
-</p>
+
+  ![](./Launching%20Windows%20Powershell.png?raw=true "Launching Windows PowerShell")
   
 Click on "Windows PowerShell" and a PoweShell terminal window should appear:
 
-  ![alt text](https://github.com/michaelrlevy/installing_linux_on_windows/blob/master/Windows%20PowerShell%20Terminal.png "Windows PowerShell terminal")
+  ![alt text](./Windows%20PowerShell%20Terminal.png?raw=true "Windows PowerShell terminal")
   
 (Alternatively, if you know how to open a Windows Command window, do that and enter "powershell" and enter.)
 
@@ -44,9 +42,7 @@ Invoke-WebRequest -Uri https://aka.ms/wsl-ubuntu-1804 -OutFile Ubuntu.appx -UseB
 
 This may take some time. When complete you should see "Ubuntu 18.04" app appear in your Windows start menu as an item to launch. Select this. In the image below, the user has begun to type "Ubuntu" in the Windows application search:
 
-<p align="center">
-  <img src="https://raw.githubusercontent.com/michaelrlevy/installing_linux_on_windows/master/Launch%20Ubuntu.png" width="348" height="341" title="Launch Ubuntu 18.04 with WSL">
-</p>
+  ![alt text](./Launch%20Ubuntu.png?raw=true "Launch Ubuntu 18.04 with WSL")
 
 You may be prompted to enter a use account name and password the first time.
 
@@ -66,7 +62,7 @@ Codename:       bionic
 mlevy@Desktop-7273:~$
 ```
 
-  ![alt text](https://github.com/michaelrlevy/installing_linux_on_windows/blob/master/Ubuntu%20Terminal%20Window.png "Ubuntu running and confirming version 18.04 'bionic'")
+  ![alt text](./Ubuntu%20Terminal%20Window.png?raw=true "Ubuntu running and confirming version 18.04 'bionic'")
 
 
 If you see "Ubuntu 18.04 LTS" this will confirm that you now have a working version of this Ubuntu Linux distribution running on your Windows computer and is ready for installation of tools and subsystems.
